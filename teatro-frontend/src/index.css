@@ -1,0 +1,47 @@
+:root {
+  --color-primario: #00548e;
+  --color-secundario: #ffffff;
+  --color-hover: #003f6b;
+  --fuente-base: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--fuente-base);
+  background-color: var(--color-secundario);
+  color: #222;
+  margin: 0;
+  padding: 1rem;
+}
+li{
+  padding: 10px;
+}
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--color-primario);
+}
+
+nav a:hover {
+  color: var(--color-hover);
+}
+
+button {
+  background-color: var(--color-primario);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-hover);
+}
+
+input, select {
+  margin: 4px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
